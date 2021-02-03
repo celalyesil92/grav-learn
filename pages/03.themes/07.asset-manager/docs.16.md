@@ -12,7 +12,7 @@ It's much more flexible and more reliable than before. Also it's considerably 'c
 
 ! **Technical Details**: The primary Assets class has been greatly simplified and reduced. Much of the logic has been broken out into 3 traits. A _testing trait_ which contains functions primarily used in our test suite, a _utils trait_ which contains methods that are shared between regular asset types (js, inline_js, css, inline_css) and the assets pipeline which can minify and compress, and lastly a _legacy trait_ which contains methods that are shortcuts or workarounds, and should generally not be used going forward.
 
-!!! The Asset manager is fully backwards compatible with syntax used in versions prior to Grav 1.6, however, the documentation below will cover the new **preferred syntax**.
+!!! The Asset manager is fully backwards compatible with syntax used in versions prior to Grav 1.6 however, the documentation below will cover the new **preferred syntax**.
 
 ## Configuration
 
